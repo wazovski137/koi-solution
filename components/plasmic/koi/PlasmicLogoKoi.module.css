@@ -1,0 +1,15 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  width: 120px;
+  position: relative;
+}
+.root > picture > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .root {
+    width: 127px;
+    height: 128px;
+  }
+}
